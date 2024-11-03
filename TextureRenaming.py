@@ -4,8 +4,8 @@ import os
 def rename_textures(directory):
     #Iterate through each file in the specified directory
     for filename in os.listdir(directory):
-        #Check if the filename has a .uasset extension (can be changed to any other file extension)
-        if filename.endswith('.uasset'):
+        #Check if the filename has a .png extension (can be changed to any other file extension)
+        if filename.endswith('.png'):
             #Generate a new name by adding a prefix
             new_name = 'PREFIX_' + filename
 
@@ -14,4 +14,4 @@ def rename_textures(directory):
 
 #Call the function to rename textures in a specified directory
 #Replace 'your_directory_path' with the actual path to the directory containing the texturesr
-rename_textures(r'C:\Users\Bjoer\Documents\Unreal Projects\QAtest\Content\Tests')
+rename_textures(r'your_directory_path')
