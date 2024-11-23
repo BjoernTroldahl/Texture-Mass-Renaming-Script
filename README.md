@@ -3,7 +3,7 @@ A script meant for mass renaming textures in a specified folder, based on their 
 But can also be used for any filetype in a folder, that needs mass-renaming, to ensure structure in naming conventions.
 Before running the script, make sure that the proper file extension is written in the code and that the folder from your device is written instead of 'your_directory_path'.
 
-#How to use
+How to use:
 1. Download this GitHub repository as a ZIP-file under the Code tab and unzip into a folder.
 2. Open the TextureRenaming.py file in your code editor of choice.
 3. Replace '.png' in line 8 with the file extension you want the mass renaming to apply to.
