@@ -13,5 +13,5 @@ def rename_textures(directory):
             os.rename(os.path.join(directory, filename), os.path.join(directory, new_name))
 
 #Call the function to rename textures in a specified directory
-#Replace 'your_directory_path' with the actual path to the directory containing the texturesr
+#Replace 'your_directory_path' with the actual path to the directory containing the textures
 rename_textures(r'your_directory_path')
